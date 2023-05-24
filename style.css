@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    border: solid orange;
+}
+.banner {
+    border: solid blue;
+}
+.container {
+    border: solid red 5px;
+}
+.load {
+    border: solid green;
+}
+.foot {
+    display: flex;
+    border: dotted black 2px;
+}
+.statement {
+    border: solid pink;
+}
+.trend {
+    border: solid purple;
+}
+.links {
+    border: solid lime;
+}
