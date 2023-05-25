@@ -15,17 +15,13 @@ body {
 }
 .navigation {
     display: flex;
-    /* position: fixed; */
     top: 0;
-    width: 100%;
     height: 38px;
-    /* align-items: flex-start; */
     height: 38px;
     background-color: #0a0a23;
     color: #fff;
     font-size: 18px;
     font-family: sans-serif;
-    padding: 0 15px;
 }
 /* INPUT */
 .search {
@@ -47,29 +43,30 @@ body {
 /* MIDDLE LOGO */
 .navMiddle {
     display: flex;
-    width: 218px;
-    height: 38px;
     margin: 0 18px;
     align-items: center;
     text-decoration: none;
 }
 .logo {
-    weight: 210px;
+    margin-left: 50%;
     height: 24px;
 }
 /* NAV RIGHT 3 ICONS */
 .navRight {
     display: flex;
-    justify-content: space-evenly;
-    weight: 389.5px;
-    height: 38px;
+    margin-left: auto;
+    gap: 15px;
+    width: 320px;
+    padding: 3px;
+}
+.globe {
+    width: 37px;
+    border: #fff;
 }
 .lang {
-    width: 30px;
-    height:30px;
+    width: 100%;
 }
 .menu {
-    margin-bottom: 10px;
     padding: 5px 14px;
     background-color: #0a0a23;
     border: 1px solid #fff;
@@ -81,62 +78,48 @@ body {
     padding: 4px 12px;
     background: #fecc4c;
     background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 1px solid #feac32;
+    border: 3px solid #feac32;
     color: #0a0a23;
+    font-size: 18px;
 }
 .row1 {
     display: inline-block;
-    margin: 90px 280px 0 280px;
+    margin: 90px 350px 0 350px;
 }
 .banner {
-    border: solid blue;
     font-family: sans-serif;
     font-size: 25px;
-    line-height: 1.1;
+    margin-bottom: 30px;;
 }
 /* ICONS */
 .icons {
-    border: solid pink;
     filter: grayscale(1);
     display: flex;
     justify-content: space-evenly;
+    margin-left: -40px;
     margin-bottom: 40px;
-}
-.apple {
-    weight: 30.77px;
-    height: 40px;
-}
-.google {
-    weight: 79px;
-    height: 40px;
-}
-.microsoft {
-    weight: 118.64px;
-    height: 40px;
-}
-.spotify {
-    weight: 106.64px;
-    height: 40px;
-}
-.amazon {
-    weight: 114.41px;
+    width: auto;
     height: 40px;
 }
 /* GET STARTED BUTTON */
 .forFree {
-    display: inline-block;
-    margin: 0 360px 40px 360px;
+    margin: 0 160px 40px 160px;
     background: #fecc4c;
     background-image: linear-gradient(#fecc4c, #ffac33);
-    border: 1px solid #feac32;
+    border: 3px solid #feac32;
     color: #0a0a23;
-    weight: 500px;
+    width: 500px;
     height: 49.42px;
     padding: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+.getStarted {
+    display: flex;
+    justify-content: center;
 }
 /*picture*/
 .container {
-    border: solid red 5px;
     display: flex;
     justify-content: center;
 }
@@ -148,50 +131,81 @@ body {
 /* AS SEEN IN */
 .publication {
     background: #3b3b4f;
-    weight: 1208px;
     height: 262.92px;
 }
+.publication h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+
+}
 .magazine {
-    filter: grayscale(1)
+    filter: grayscale(1);
+}
+.magContainer {
+    width: 600px;
+    margin-left: 520px;
+    line-height: 3em;
 }
 .wired {
-    weight: 110.69px;
-    height: 22.13px;
+    width: 110.69px;
+    height: 35px;
 }
 .business {
-    weight: 78.16px;
-    height: 24.28px;
+    width: 78.16px;
+    height: auto;
 }
 .inc {
-    weight: 70.35px;
+    width: 70.35px;
     height: 21.88px;
 }
 .lifehacker {
-    weight: 87.89px;
+    width: 87.89px;
     height: 21.88px;
 }
 .time {
-    weight: 62.03px;
-    height: 18.93px;
+    width: 62.03px;
+    height: auto;
 }
 .quartz {
-    weight: 90.35px;
-    height: 14.12px;
+    width: 90.35px;
+    height: auto;
 }
 .usa {
-    weight: 122.46px;
+    width: 122.46px;
     height: 22.2px;
 }
 .newyork {
-    weight: 181.32px;
+    width: auto;
     height: 23.83px;
 }
 .bbc {
-    weight: 86.68px;
-    height: 24.71px;
+    width: 86.68px;
+    height: auto;
 }
 /*TESTIMONIALS*/
-
+.testTitle {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.testimonials {
+    width: 1278;
+    height: 1140;
+}
+.alumni {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.alumniText {
+    width: 850px;
+    height: 350px;
+    background: #0a0a23;
+}
 
 .load {
     border: solid green;
