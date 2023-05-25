@@ -24,19 +24,32 @@ body {
     font-family: sans-serif;
 }
 /* INPUT */
+.navLeft {
+    display: flex;
+}
+.magnifier {
+    float: left;
+    height: 26px;
+    padding: 10px;
+    background: #3b3b4f;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    margin: 6px 0 6px 26px;
+}
+.glass {
+    display: flex;
+}
 .search {
-    /* display: inherit; */
-    /* display: block; */
     width: 30vw;
     max-width: 500px;
-    margin: 6px 0 6px 26px;
-    padding: 0 10px 0 30px;
+    margin: 6px 0 6px 0px;
+    padding: 0 10px 0 10px;
     height: 26px;
     background: #3b3b4f;
     color: #fff;
     font-family: sans-serif;
     font-size: 18px;
-    /* text-align: start; */
     border: none;
     border-radius: 0;
 }
@@ -61,10 +74,11 @@ body {
 }
 .globe {
     width: 37px;
-    border: #fff;
+    border: solid #fff;
+    background: #0a0a23;
 }
 .lang {
-    width: 100%;
+    color:#fff
 }
 .menu {
     padding: 5px 14px;
@@ -205,6 +219,18 @@ body {
     width: 850px;
     height: 350px;
     background: #0a0a23;
+}
+.alumniName {
+    margin: 30px;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.alumniQuote {
+    margin: 30px;
+    line-height: 2em;
+    font-family: sans-serif;
 }
 
 .load {
