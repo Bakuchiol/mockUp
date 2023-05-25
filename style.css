@@ -1,9 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+/*flex site into columns wraps all divs GRANDMAMA DIV*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*scrollable?*/
+    background-color: #1b1b32;
+    color: #fff;
+}
 .navigation {
     display: flex;
-    border: solid orange;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    height: 38px;
+    /* align-items: flex-start; */
+    height: 38px;
+    background-color: #0a0a23;
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 0 15px;
+}
+/* INPUT */
+.search {
+    /* display: inherit; */
+    /* display: block; */
+    width: 30vw;
+    max-width: 500px;
+    margin: 6px 0 6px 26px;
+    padding: 0 10px 0 30px;
+    height: 26px;
+    background: #3b3b4f;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    /* text-align: start; */
+    border: none;
+    border-radius: 0;
+}
+/* MIDDLE LOGO */
+.navMiddle {
+    display: flex;
+    width: 218px;
+    height: 38px;
+    margin: 0 18px;
+    align-items: center;
+    text-decoration: none;
+}
+.logo {
+    weight: 210px;
+    height: 24px;
+}
+/* NAV RIGHT 3 ICONS */
+.navRight {
+    display: flex;
+    justify-content: space-evenly;
+    weight: 389.5px;
+    height: 38px;
+}
+.lang {
+    width: 30px;
+    height:30px;
+}
+.menu {
+    margin-bottom: 10px;
+    padding: 5px 14px;
+    background-color: #0a0a23;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.signIn {
+    padding: 4px 12px;
+    background: #fecc4c;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 1px solid #feac32;
+    color: #0a0a23;
+}
+.row1 {
+    display: inline-block;
+    margin: auto;
 }
 .banner {
     border: solid blue;
+    font-family: sans-serif;
+    font-size: 25px;
+    line-height: 1.1;
+}
+/* ICONS */
+.icons {
+    border: solid pink;
+    filter: grayscale(1);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.apple {
+    weight: 30.77px;
+    height: 40px;
+}
+.google {
+    weight: 79px;
+    height: 40px;
+}
+.microsoft {
+    weight: 118.64px;
+    height: 40px;
+}
+.spotify {
+    weight: 106.64px;
+    height: 40px;
+}
+.amazon {
+    weight: 114.41px;
+    height: 40px;
+}
+/* GET STARTED BUTTON */
+.forFree {
+    background: #fecc4c;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    border: 1px solid #feac32;
+    color: #0a0a23;
+    weight: 500px;
+    height: 49.42px;
+    padding: 5px;
 }
 .container {
     border: solid red 5px;
@@ -12,7 +140,6 @@
     border: solid green;
 }
 .foot {
-    display: flex;
     border: dotted black 2px;
 }
 .statement {
@@ -20,6 +147,22 @@
 }
 .trend {
     border: solid purple;
+}
+.header {
+    border: solid red 1px;
+}
+.columns {
+    display: flex;
+    border: dotted gray;
+}
+.col1 {
+    border: solid olivedrab;
+}
+.col2 {
+    border: solid aqua
+}
+.col3 {
+    border: solid palevioletred
 }
 .links {
     border: solid lime;
