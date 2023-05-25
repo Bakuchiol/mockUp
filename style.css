@@ -4,7 +4,6 @@
 }
 body {
     display: flex;
-    justify-content: center;
 }
 /*flex site into columns wraps all divs GRANDMAMA DIV*/
 .wrapper {
@@ -87,7 +86,7 @@ body {
 }
 .row1 {
     display: inline-block;
-    margin: auto;
+    margin: 90px 280px 0 280px;
 }
 .banner {
     border: solid blue;
@@ -125,6 +124,8 @@ body {
 }
 /* GET STARTED BUTTON */
 .forFree {
+    display: inline-block;
+    margin: 0 360px 40px 360px;
     background: #fecc4c;
     background-image: linear-gradient(#fecc4c, #ffac33);
     border: 1px solid #feac32;
@@ -133,9 +134,65 @@ body {
     height: 49.42px;
     padding: 5px;
 }
+/*picture*/
 .container {
     border: solid red 5px;
+    display: flex;
+    justify-content: center;
 }
+.imgDesc {
+    text-align: center;
+    font-family: sans-serif;
+    color: #d0d0d5;
+}
+/* AS SEEN IN */
+.publication {
+    background: #3b3b4f;
+    weight: 1208px;
+    height: 262.92px;
+}
+.magazine {
+    filter: grayscale(1)
+}
+.wired {
+    weight: 110.69px;
+    height: 22.13px;
+}
+.business {
+    weight: 78.16px;
+    height: 24.28px;
+}
+.inc {
+    weight: 70.35px;
+    height: 21.88px;
+}
+.lifehacker {
+    weight: 87.89px;
+    height: 21.88px;
+}
+.time {
+    weight: 62.03px;
+    height: 18.93px;
+}
+.quartz {
+    weight: 90.35px;
+    height: 14.12px;
+}
+.usa {
+    weight: 122.46px;
+    height: 22.2px;
+}
+.newyork {
+    weight: 181.32px;
+    height: 23.83px;
+}
+.bbc {
+    weight: 86.68px;
+    height: 24.71px;
+}
+/*TESTIMONIALS*/
+
+
 .load {
     border: solid green;
 }
