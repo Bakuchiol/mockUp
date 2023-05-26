@@ -224,6 +224,19 @@ body {
     line-height: 2em;
     font-family: sans-serif;
 }
+.certifications {
+    /* margin: 0 150px 0 150px; */
+}
+.cert {
+    width: 55%;
+    height: 80px;
+    background: #3b3b4f;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+
 
 .load {
     border: solid green;
