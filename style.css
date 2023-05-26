@@ -24,21 +24,14 @@ body {
     font-family: sans-serif;
 }
 /* INPUT */
-.navLeft {
-    display: flex;
-}
 .magnifier {
     float: left;
     height: 26px;
-    padding: 10px;
     background: #3b3b4f;
     color: #fff;
     font-size: 17px;
     border: none;
     margin: 6px 0 6px 26px;
-}
-.glass {
-    display: flex;
 }
 .search {
     width: 30vw;
@@ -56,12 +49,11 @@ body {
 /* MIDDLE LOGO */
 .navMiddle {
     display: flex;
-    margin: 0 18px;
     align-items: center;
     text-decoration: none;
 }
 .logo {
-    margin-left: 50%;
+    margin-left: 85px;
     height: 24px;
 }
 /* NAV RIGHT 3 ICONS */
