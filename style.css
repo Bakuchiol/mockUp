@@ -225,16 +225,39 @@ body {
     font-family: sans-serif;
 }
 .certifications {
-    /* margin: 0 150px 0 150px; */
+    margin-left: 300px;
 }
 .cert {
-    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 15px;
     height: 80px;
     background: #3b3b4f;
     border: 2px solid #fff;
     color: #fff;
-    font-size: 18px;
 }
+.cert:hover {
+    background: #fff;
+    color: #3b3b4f;
+}
+.bttmButtons {
+    display: flex;
+    width: 900px;
+}
+.buttonTxt {
+    font-size: 25px;
+    padding: 10px 0 0px 0;
+}
+.btnIcon {
+    font-size: 50px;
+    margin-right:10px;
+}
+/* FAQ CONTAINER */
+.faqs {
+    justify-content: center;
+}
+
 
 
 
