@@ -224,8 +224,18 @@ body {
     line-height: 2em;
     font-family: sans-serif;
 }
+/* certification buttons area */
+.certTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 95px 0 40px 300px;
+}
+.certTitle {
+    text-align: left;
+}
 .certifications {
     margin-left: 300px;
+    margin-bottom: 40px;
 }
 .cert {
     display: flex;
@@ -255,9 +265,30 @@ body {
 }
 /* FAQ CONTAINER */
 .faqs {
-    justify-content: center;
+    margin-top: 45px;
 }
-
+.faqs h1 {
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.faqs h2 {
+    margin-left: 300px;
+    margin-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.qNa {
+    width: 65%;
+    margin-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.question {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.answer {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
 
 
