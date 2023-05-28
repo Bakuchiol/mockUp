@@ -7,17 +7,17 @@ body {
 }
 /*flex site into columns wraps all divs GRANDMAMA DIV*/
 .wrapper {
-    display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     min-height: 100vh; /*scrollable?*/
     background-color: #1b1b32;
     color: #fff;
 }
 .navigation {
     display: flex;
+    position: fixed;
     top: 0;
     height: 38px;
-    height: 38px;
+    width: 100%;
     background-color: #0a0a23;
     color: #fff;
     font-size: 18px;
@@ -32,6 +32,9 @@ body {
     font-size: 17px;
     border: none;
     margin: 6px 0 6px 26px;
+}
+.magnifier:hover {
+    filter: invert(1);
 }
 .search {
     width: 30vw;
@@ -60,6 +63,7 @@ body {
 .navRight {
     display: flex;
     margin-left: auto;
+    margin-right: -75px;
     gap: 15px;
     width: 320px;
     padding: 3px;
@@ -68,6 +72,9 @@ body {
     width: 37px;
     border: solid #fff;
     background: #0a0a23;
+}
+.globe:hover {
+    filter: invert(1);
 }
 .lang {
     color:#fff
@@ -80,6 +87,9 @@ body {
     font-size: 18px;
     text-decoration: none;
 }
+.menu:hover {
+    filter: invert(1);
+}
 .signIn {
     padding: 4px 12px;
     background: #fecc4c;
@@ -88,6 +98,10 @@ body {
     color: #0a0a23;
     font-size: 18px;
 }
+.signIn:hover {
+    background: #fecc4c;
+}
+/* top container */
 .row1 {
     display: inline-block;
     margin: 90px 350px 0 350px;
@@ -99,13 +113,15 @@ body {
 }
 /* ICONS */
 .icons {
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
+    /* filter: invert(1); */
+    filter: invert() brightness(2) contrast(2) grayscale(1);
     display: flex;
     justify-content: space-evenly;
     margin-left: -40px;
     margin-bottom: 40px;
     width: auto;
-    height: 40px;
+    height: 35px;
 }
 /* GET STARTED BUTTON */
 .forFree {
@@ -119,6 +135,9 @@ body {
     padding: 5px;
     font-size: 25px;
     text-align: center;
+}
+.forFree:hover {
+    background: #fecc4c;
 }
 .getStarted {
     display: flex;
@@ -148,12 +167,15 @@ body {
 
 }
 .magazine {
-    filter: grayscale(1);
+    filter: invert(1);
+    /* filter: grayscale(1); */
 }
 .magContainer {
     width: 600px;
     margin-left: 520px;
     line-height: 3em;
+    letter-spacing: 1em;
+    text-align: center;
 }
 .wired {
     width: 110.69px;
@@ -184,8 +206,8 @@ body {
     height: 22.2px;
 }
 .newyork {
-    width: auto;
-    height: 23.83px;
+    width: 150px;
+    height: 30px;
 }
 .bbc {
     width: 86.68px;
@@ -216,13 +238,19 @@ body {
     margin: 30px;
     text-align: center;
     margin: 50px 0 20px 0;
-    font-family: sans-serif;
+    font-family: Helvetica;
     font-size: 20px;
+}
+.alumniName span {
+    font-weight: bolder;
 }
 .alumniQuote {
     margin: 30px;
     line-height: 2em;
     font-family: sans-serif;
+}
+.alumniQuote span {
+    font-weight: bolder;
 }
 /* certification buttons area */
 .certTitle {
@@ -266,6 +294,7 @@ body {
 /* FAQ CONTAINER */
 .faqs {
     margin-top: 45px;
+    padding-bottom: 20px;
 }
 .faqs h1 {
     margin-bottom: 40px;
@@ -282,53 +311,80 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .question {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 .answer {
     font-size: 18px;
     margin-bottom: 30px;
+    line-height: 2.5em;
 }
 /* whole footer container*/
 .foot {
-    border: dotted #fff 2px;
     display: flex;
     padding: 70px;
+    background: #3b3b4f;
     font-family: Arial, Helvetica, sans-serif;
 }
 /* leftside */
 .statement {
-    border: solid pink;
+    padding: 15px 10px 0 0;
+    line-height: 2em;
+}
+.mission {
+    margin-bottom: 10px;
+}
+.donation {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.donation a {
+    color: #fff;
+}
+.donation a:hover {
+    text-decoration: none;
 }
 /* rightt side */
 .trend {
-    border: solid purple;
-    width: 100%;
+    /* border: solid purple; */
+    width: 150%;
 }
 .header {
-    border: solid red 1px;
+    /* border: solid red 1px; */
+    margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
 }
 .columns {
-    border: dotted lime;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
-    font-size: 15px;
+    line-height: 2.5em;
 }
 .columns a {
     text-decoration: none;
     color: #fff;
 }
-.col1 {
-    border: solid olivedrab;
+/* bottom links */
+.bottom{
+    background: #3b3b4f;
 }
-.col2 {
-    border: solid aqua
-}
-.col3 {
-    border: solid palevioletred
+.bottom hr {
+    margin: 0 50px 0 65px;
+    border: .5px #f5f6f7;
+    border-style: solid none none none;
+    width: 92%;
 }
 .links {
-    border: solid lime;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 30px 60px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
 }
