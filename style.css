@@ -289,27 +289,36 @@ body {
     font-size: 18px;
     margin-bottom: 30px;
 }
-
-
-
-.load {
-    border: solid green;
-}
+/* whole footer container*/
 .foot {
-    border: dotted black 2px;
+    border: dotted #fff 2px;
+    display: flex;
+    padding: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/* leftside */
 .statement {
     border: solid pink;
 }
+/* rightt side */
 .trend {
     border: solid purple;
+    width: 100%;
 }
 .header {
     border: solid red 1px;
+    text-align: center;
+    font-size: 20px;
 }
 .columns {
-    display: flex;
-    border: dotted gray;
+    border: dotted lime;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+    font-size: 15px;
+}
+.columns a {
+    text-decoration: none;
+    color: #fff;
 }
 .col1 {
     border: solid olivedrab;
